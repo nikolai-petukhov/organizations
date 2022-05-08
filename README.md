@@ -1,1 +1,1 @@
-# organizations
+published at https://nikolai-petukhov.github.io/organizations/
