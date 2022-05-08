@@ -15,7 +15,7 @@ function initTabs() {
 function setActiveContent(tab) {
     tabsContent.forEach(tabContent => {
         if (tabContent.id === tab.dataset.tabId) {
-            tabContent.style.display = 'block';
+            tabContent.style.display = 'grid';
         } else {
             tabContent.style.display = 'none';
         }
