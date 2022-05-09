@@ -17,8 +17,8 @@
                     <div class="tabs-content" id="organizations">
                         <div class="control-panel">
                             <div class="control-panel-buttons">
-                                <button class="control-button primary">Add</button>
-                                <button class="control-button red">Delete</button>
+                                <button class="control-button primary" id="button-add-organization">Add</button>
+                                <button class="control-button red" id="button-delete-organization">Delete</button>
                             </div>
                             <div class="organizations-list-container">
                                 <ul class="organizations-list">
@@ -76,13 +76,23 @@
                                 <label for="foundation">Date of foundation</label>
                                 <input tabindex="9" type="date" name="foundation" id="foundation" class="data-panel-input">
                              </div>
-                             <button class="control-button save" tabindex="10">Save</button>
+                             <button class="control-button save" tabindex="10" id="button-save-organization">Save</button>
                         </div>
                     </div>
                     <div class="tabs-content" id="catalogs">
                         catalogs <br> catalogs catalogs tabs content 2
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="popup popup-hidden" id="popup-types">
+            <div class="popup-wrapper">
+                types popup
+            </div>
+        </div>
+        <div class="popup popup-hidden" id="popup-managers">
+            <div class="popup-wrapper">
+                managers popup
             </div>
         </div>
        <script type="module" src="app.js"></script>

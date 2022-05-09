@@ -2,7 +2,7 @@ const organizationsListItems = document.querySelectorAll('.organizations-list-it
 const organizationsListContainer = document.querySelector('.organizations-list-container');
 
 function organizationsListOverflowInit() {
-    if (organizationsListItems.length > 13)
+    if (organizationsListItems.length > 15)
         organizationsListContainer.style.overflowY = 'scroll';
     else
     organizationsListContainer.style.overflowY = 'hidden';
