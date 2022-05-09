@@ -1,3 +1,5 @@
+import * as popupFunctionality from './popupFunctianality.js';
+
 const addOrganizationButton = document.getElementById('button-add-organization');
 const deleteOrganizationButton = document.getElementById('button-delete-organization');
 const saveOrganizationButton = document.getElementById('button-save-organization');
@@ -20,10 +22,12 @@ function initOrganizationsTabEventHandlers() {
 
     typeOfOrganizationInput.addEventListener('click', () => {
         console.log('type pressed');
+        popupFunctionality.popupWindowShow('popup-types');
     });
 
     managerOrganizationInput.addEventListener('click', () => {
         console.log('manager pressed');
+        popupFunctionality.popupWindowShow('popup-managers');
     });
     
 }
